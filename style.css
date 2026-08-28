@@ -140,6 +140,10 @@ main section {
 }
 
 /* Research */
+.scholar-link {
+  margin: 0 0 20px;
+  font-size: 0.92rem;
+}
 .pub-list {
   list-style: none;
   margin: 0;
