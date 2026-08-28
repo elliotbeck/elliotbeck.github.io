@@ -17,10 +17,7 @@
     <span class="site-name">Elliot Beck</span>
     <nav>
       <a href="#about">About</a>
-      <a href="#experience">Experience</a>
       <a href="#research">Research</a>
-      <a href="#education">Education</a>
-      <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
     </nav>
   </div>
@@ -57,60 +54,6 @@
     </div>
   </section>
 
-  <section id="experience" class="container">
-    <h2>Experience</h2>
-
-    <article class="entry">
-      <div class="entry-head">
-        <h3>Data Scientist / Economist, Economic Data Science</h3>
-        <span class="entry-date">Mar 2020 – present</span>
-      </div>
-      <p class="entry-org">Swiss National Bank &middot; Zurich, Switzerland</p>
-      <ul>
-        <li>Built a news-based real-activity signal for Switzerland end to end: automated sourcing of Swiss media, LLM-based extraction of an economic-outlook index (LangChain, PyTorch), integration into the live GDP nowcast. Unstructured text now moves a published number.</li>
-        <li>Rebuilt the 1–12-month-ahead inflation forecasting pipeline around machine and deep learning methods (scikit-learn, PyTorch, MLflow); cut out-of-sample RMSE 20–40% against the benchmark under real-time evaluation.</li>
-        <li>Build implied probability distributions around policy meetings and data releases from option and futures pricing, and judge where the Bank's view differs from what the market has priced.</li>
-        <li>Produce full predictive distributions rather than point forecasts, used for probability of inflation above the target band in internal briefings.</li>
-        <li>Read macro headlines as they break and translate them into same-day implications for the forecast; brief the Governing Board on revisions and the macro story behind them around each CPI release; author internal notes and published external research.</li>
-        <li>Evaluate external data vendors and alternative sources for forecasting value, most recently energy and tourism series; own the models in production and their daily upkeep (PySpark / Spark MLlib on Cloudera DSW, GitLab CI/CD, internal R and Python packages, monitoring dashboards).</li>
-      </ul>
-    </article>
-
-    <article class="entry">
-      <div class="entry-head">
-        <h3>External Expert, Data Science</h3>
-        <span class="entry-date">Jun 2022 – Aug 2022</span>
-      </div>
-      <p class="entry-org">Roland Berger &middot; Zurich, Switzerland</p>
-      <ul>
-        <li>Engaged as external quantitative expert to build machine and deep learning inflation forecasting models for the client.</li>
-        <li>Advised consulting teams on preprocessing, feature engineering and model selection for macro time series.</li>
-      </ul>
-    </article>
-
-    <article class="entry">
-      <div class="entry-head">
-        <h3>Head Teaching Assistant, Prof. Michael Wolf</h3>
-        <span class="entry-date">Feb 2016 – Jan 2025</span>
-      </div>
-      <p class="entry-org">University of Zurich, Department of Economics &middot; Zurich, Switzerland</p>
-      <ul>
-        <li>Led tutorials for up to 400 students in Statistics, Financial Econometrics, Time Series Analysis and Advanced Statistics (BA and MSc level); organised and supervised examinations across the lecture portfolio.</li>
-      </ul>
-    </article>
-
-    <article class="entry">
-      <div class="entry-head">
-        <h3>Internships — Private Equity Sales; Trade Finance</h3>
-        <span class="entry-date">2015 – 2016</span>
-      </div>
-      <p class="entry-org">Akina Partners / Ameropa AG &middot; Zurich &amp; Basel, Switzerland</p>
-      <ul>
-        <li>Market and investor research for private equity distribution (Akina); treasury support for physical commodity trading and operations (Ameropa).</li>
-      </ul>
-    </article>
-  </section>
-
   <section id="research" class="container">
     <h2>Research</h2>
     <ul class="pub-list">
@@ -135,75 +78,6 @@
         <span class="pub-venue">International Review of Economics and Finance (2023)</span>
       </li>
     </ul>
-  </section>
-
-  <section id="education" class="container">
-    <h2>Education</h2>
-
-    <article class="entry">
-      <div class="entry-head">
-        <h3>PhD in Finance</h3>
-        <span class="entry-date">Sep 2021 – Jun 2025</span>
-      </div>
-      <p class="entry-org">University of Zurich &middot; 5.8/6.0, Summa Cum Laude</p>
-      <ul>
-        <li>Developed machine/deep learning methods for financial time series forecasting.</li>
-        <li>Doctoral coursework in asset pricing, derivatives pricing and financial econometrics; completed alongside the SNB role.</li>
-      </ul>
-    </article>
-
-    <article class="entry">
-      <div class="entry-head">
-        <h3>Visiting PhD Student</h3>
-        <span class="entry-date">Mar 2025 – Jun 2025</span>
-      </div>
-      <p class="entry-org">University of Chicago, Booth School of Business</p>
-      <ul>
-        <li>Hosted by Prof. Christian B. Hansen.</li>
-      </ul>
-    </article>
-
-    <article class="entry">
-      <div class="entry-head">
-        <h3>MSc Statistics, Focus: Machine and Deep Learning</h3>
-        <span class="entry-date">Sep 2017 – Feb 2020</span>
-      </div>
-      <p class="entry-org">ETH Zurich &middot; 5.4/6.0, Magna Cum Laude</p>
-      <ul>
-        <li>Thesis on domain generalization of artificial neural networks (Python, PyTorch, TensorFlow, Keras).</li>
-      </ul>
-    </article>
-
-    <article class="entry">
-      <div class="entry-head">
-        <h3>BA Banking and Finance</h3>
-        <span class="entry-date">Sep 2014 – Sep 2017</span>
-      </div>
-      <p class="entry-org">University of Zurich &middot; 5.5/6.0, Summa Cum Laude</p>
-      <ul>
-        <li>Thesis based on simulation and estimation work in R and MATLAB.</li>
-      </ul>
-    </article>
-  </section>
-
-  <section id="skills" class="container">
-    <h2>Skills</h2>
-    <dl class="skills-list">
-      <dt>Programming</dt>
-      <dd>Python (numpy, pandas, scikit-learn, statsmodels, sktime, PyTorch, LangChain), web scraping (requests, BeautifulSoup, Scrapy, Selenium), R, MATLAB, SQL, Spark / PySpark</dd>
-
-      <dt>Market data</dt>
-      <dd>Bloomberg, Refinitiv / LSEG, Datastream, FRED, SNB / BIS data APIs</dd>
-
-      <dt>Methods</dt>
-      <dd>Time series econometrics, point and density forecasting with out-of-sample evaluation, factor models, covariance estimation and shrinkage, ensemble methods, deep learning, NLP and large language models, option-implied probability distributions</dd>
-
-      <dt>Production</dt>
-      <dd>Git and GitLab CI/CD, MLflow, package development and internal distribution (CRAN, PyPI), Cloudera DSW</dd>
-
-      <dt>Languages</dt>
-      <dd>Fluent English and German; intermediate French and Italian</dd>
-    </dl>
   </section>
 
   <section id="contact" class="container">
