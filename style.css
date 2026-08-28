@@ -126,6 +126,12 @@ main section {
   grid-template-columns: 1fr;
   gap: 24px;
 }
+.about-text p {
+  margin: 0 0 1em;
+}
+.about-text p:last-child {
+  margin-bottom: 0;
+}
 .about-photo {
   width: 100%;
   height: auto;
@@ -175,7 +181,7 @@ footer {
     grid-template-columns: 1.2fr 1fr;
     align-items: center;
   }
-  .about-grid p { margin: 0; min-width: 0; }
+  .about-text { min-width: 0; }
 }
 
 @media (max-width: 480px) {
